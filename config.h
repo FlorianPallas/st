@@ -7,6 +7,7 @@ static int borderpx = 5;
 static unsigned int cols = 80;
 static unsigned int rows = 24;
 unsigned int tabspaces = 8;
+float alpha = 0.8;
 
 // Cursor
 static unsigned int cursorshape = 2;
