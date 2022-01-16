@@ -8,6 +8,7 @@ static unsigned int cols = 80;
 static unsigned int rows = 24;
 unsigned int tabspaces = 8;
 float alpha = 0.8;
+static const char col_prime[] = "#6200ea";
 
 // Cursor
 static unsigned int cursorshape = 2;
@@ -58,7 +59,7 @@ static const char *colorname[] = {
   [255] = 0,
 
   // more colors can be added after 255 to use with DefaultXX
-  "#cccccc",
+  col_prime,
   "#555555",
   "gray90", // default fg
   "black", // default bg
